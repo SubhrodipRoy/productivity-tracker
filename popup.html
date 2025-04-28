@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Productivity Tracker</title>
-  <link rel="stylesheet" href="popup.css">
+    <title>Track Me</title>
+    <style>
+        img {
+            width: 16px; /* Adjust the size as needed */
+            height: 16px;
+        }
+    </style>
 </head>
 <body>
-  <div id="tracker">
-    <h1>Time Tracker</h1>
-    <div id="website-info">
-      <p><strong></strong> <span id="website-name"></span></p>
-      <p><strong></strong> <span id="time-spent"></span></p>
+    <div>
+        <img id="favicon" src="" alt="Domain Logo">
+        <p id="timeSpent">Loading...</p>
     </div>
-    <button id="reset-btn">Reset</button>
-  </div>
-  <script src="popup.js"></script>
+    <script src="popup.js"></script>
 </body>
 </html>
